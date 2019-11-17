@@ -18,6 +18,6 @@ app.get("/",function(request,response){
     response.send("Welcome to my Application..");
         });
 //listen to port for requests
-app.listen(4000, function(){
+app.listen(6000, function(){
     console.log("Server Started on port .. " );
 })
